@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:keyboard-tab$$
   - A
   - S
   - D
@@ -28,8 +28,8 @@ layers:
   - L
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:keyboard-tab$$
   - $$mdi:apple-keyboard-shift$$
+  - Z
   - X
   - C
   - V
@@ -41,7 +41,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - num_sym
@@ -83,7 +83,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB TOG
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Meh+?
