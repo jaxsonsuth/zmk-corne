@@ -61,10 +61,10 @@
 
         nav {
             bindings = <
-&trans  &trans  &kp N1  &kp N2  &kp N3  &kp DOT                              &trans          &kp LS(STAR)  &kp HOME               &kp UP_ARROW    &kp END          &kp PG_UP  &trans
-&trans  &trans  &kp N4  &kp N5  &kp N6  &kp N0                       &trans  &trans  &trans  &trans        &kp LEFT_ARROW         &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_DN  &trans
-&trans  &trans  &kp N7  &kp N8  &kp N9  &kp BSPC  &rgb_ug RGB_TOG            &trans          &trans        &kp LS(LC(LA(QMARK)))  &kp ESC         &kp TAB          &kp DEL    &trans
-                        &trans  &trans  &trans                                               &trans        &trans                 &trans
+&trans  &trans  &kp N1  &kp N2  &kp N3  &kp DOT                                       &rgb_ug RGB_HUI                   &trans  &kp HOME        &kp UP_ARROW    &kp END          &kp PG_UP  &trans
+&trans  &trans  &kp N4  &kp N5  &kp N6  &kp N0                       &rgb_ug RGB_SAD  &rgb_ug RGB_EFF  &rgb_ug RGB_SAI  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_DN  &trans
+&trans  &trans  &kp N7  &kp N8  &kp N9  &kp BSPC  &rgb_ug RGB_TOG                     &rgb_ug RGB_HUD                   &trans  &trans          &trans          &trans           &trans     &trans
+                        &trans  &trans  &trans                                                                          &trans  &trans          &trans
             >;
 
             sensor-bindings = <&rgb_encoder>;
