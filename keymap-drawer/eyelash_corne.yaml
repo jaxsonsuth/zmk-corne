@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '~'
   - $$mdi:keyboard-tab$$
   - A
   - S
@@ -27,8 +27,8 @@ layers:
   - K
   - L
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '`', s: '~'}
+  - '&td0'
   - Z
   - X
   - C
@@ -41,7 +41,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-shift$$
+  - '&td0'
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - num_sym
@@ -138,8 +138,8 @@ layers:
   - Sft+{
   - Sft+}
   - {t: /, s: '?'}
-  - Sft+_
   - {t: \, s: '|'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
